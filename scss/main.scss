@@ -1,0 +1,30 @@
+// утилиты
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+// базовые стили
+@import "./base/reset";
+@import "./base/common";
+@import "./base/containar";
+
+//основная навигация сайта (хдер\футтер)
+@import "./components/page-header";
+@import "./components/page-futter";
+
+// блок мейн главной страницы
+@import "./components/title-page/page-hero";
+@import "./components/title-page/page-benefits";
+@import "./components/title-page/page-exemples";
+@import "./components/title-page/page-comand";
+@import "./components/title-page/page-customers";
+
+// бекдроп
+@import "./utils/backdrop";
+
+// стили формы
+@import "./utils/form-stile";
+
+// блок мейн страницы портфолио
+@import "./components/portfolio-page/portfolio-btn";
+@import "./components/portfolio-page/portfolio-cart";
+@import "./utils/mobile-meny";
